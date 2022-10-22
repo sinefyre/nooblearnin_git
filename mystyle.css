@@ -1,8 +1,8 @@
 body {
   background-color: #ffffff;
   background-image: url(https://cdn.discordapp.com/attachments/987760144895058001/1033109179793145876/10743-cyberpunk_futuristic_vanilla_skies_a_vast_array_of_megabuildings_surrounded_by_greenspace_digital_illustration_by_thomas_kinkade_-0.png);
-  background-repeat: no-repeat;
-  background-size:100% 100%;
+  background-size: cover;
+ background-repeat: no-repeat;
   background-attachment: scroll;
 }
 
@@ -43,4 +43,13 @@ ul {
   font-weight: normal;
   color: lime;
   background-color: rgba(0, 0, 0, 0.45);
+}
+
+.selfie {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  width:248px;
+  height:248px;
 }
